@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RadioGroup
+        android:id="@+id/RatingRadioGroup"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/mmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly membership plan" />
+
+        <RadioButton
+            android:id="@+id/amp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Annual membership plan" />
+
+        <RadioButton
+            android:id="@+id/pvp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay-per-visit plan" />
+
+        <RadioButton
+            android:id="@+id/fmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family membership plan" />
+
+        <RadioButton
+            android:id="@+id/cmp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corporate membership plan" />
+
+        <Button
+            android:id="@+id/submitBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+        <Button
+            android:id="@+id/cancelBT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
